@@ -20,32 +20,32 @@ a{
 
 .first_page{
     width: 100vw;
-    height: 50vw;
+    height: 47vw;
     
 }
 .second_page{
     width: 100vw;
-    height: 50vw;
+    height: 47vw;
 }
 .third_page{
     width: 100vw;
-    height: 50vw;
+    height: 47vw;
 }
 .fourth_page{
     width: 100vw;
-    height: 53vw;
+    height: 50vw;
 }
 .fifth_page{
     width: 100vw;
-    height: 45vw;
+    height: 42vw;
 }
 .sixth_page{
     width: 100vw;
-    height: 50vw;
+    height: 47vw;
 }
 .seventh_page{
     width: 100vw;
-    height: 50vw;
+    height: 47vw;
 }
 hr{
     margin-top: 1rem;
@@ -61,6 +61,11 @@ hr{
    background-color: rgb(130, 224, 130);
    height: 3rem;
    width: 100vw;
+   position: sticky;
+   top: 0;
+   overflow: hidden;
+   z-index: 1;
+
  
    a{
     padding: 0rem 0.4rem 0rem 0.4rem;
